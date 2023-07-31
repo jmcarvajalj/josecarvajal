@@ -1,8 +1,6 @@
 'use client';
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
-import { useEffect } from "react";
-
 
 export default function Navbar() {
     const currentRoute = usePathname();
@@ -34,7 +32,9 @@ export default function Navbar() {
             </nav>
             {/* language links*/}
 
-            <nav id="nombre">José Miguel Carvajal Jiménez</nav>
+            <nav id="nombre">
+                José Miguel Carvajal Jiménez
+            </nav>
 
 
             {/* navigation links*/}
