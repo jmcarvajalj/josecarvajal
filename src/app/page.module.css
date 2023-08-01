@@ -16,12 +16,12 @@
 }
 
 .description p:first-child {
-    font-size: 25px;
+    font-size: 30px;
     cursor: default;
 }
 
 .description p:nth-child(2) {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     margin: auto;
     cursor: default;
