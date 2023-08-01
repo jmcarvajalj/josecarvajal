@@ -15,13 +15,14 @@ export default function Home() {
           src="/profile.jpg"
           alt="Profile photo"
           className={styles.profilephoto}
-          width={250}
-          height={250}
+          width={200}
+          height={200}
           priority
           unoptimized />
         <section className={styles.description}>
-          <p>Hola! mi nombre es José Miguel Carvajal Jiménez.</p>
-          <p>Soy un desarollador de software Full-Stack basado en Colombia. <br /> <br /> Si necesitas de mis servicios no dudes en contactarme!</p>
+          <p>Hola!, mi nombre es José Miguel Carvajal Jiménez.</p>
+          <p>Soy un desarrollador de software Full-Stack basado en Colombia. <br /> <br />
+            ¡Si necesitas de mis servicios, no dudes en contactarme!</p>
           <div className={styles.icons}>
             <Link href="mailto:josemcj07@gmail.com" target="_blank">
               <Image
@@ -56,9 +57,9 @@ export default function Home() {
                 unoptimized />
             </Link>
           </div>
-          <p className={styles.phone}>Telefono Celular / Whatsapp : +57 310 8094629
+          <p className={styles.phone}>Teléfono Celular / WhatsApp  : +57 310 8094629
             <br /><br />
-            Telefono Fijo : +57 601 2519779
+            Teléfono Fijo : +57 601 2519779
             <br /><br />
             Email : josemcj07@gmail.com
           </p>

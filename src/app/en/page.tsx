@@ -15,12 +15,12 @@ export default function Home() {
                     src="/profile.jpg"
                     alt="Profile photo"
                     className={styles.profilephoto}
-                    width={250}
-                    height={250}
+                    width={200}
+                    height={200}
                     priority
                     unoptimized />
                 <section className={styles.description}>
-                    <p>Hello! my name is José Miguel Carvajal Jiménez.</p>
+                    <p>Hello!, my name is José Miguel Carvajal Jiménez.</p>
                     <p>I am a Full-Stack software developer based in Colombia. <br /> <br /> If you need my services, do not hesitate to contact me!</p>
                     <div className={styles.icons}>
                         <Link href="mailto:josemcj07@gmail.com" target="_blank">
@@ -56,7 +56,7 @@ export default function Home() {
                                 unoptimized />
                         </Link>
                     </div>
-                    <p className={styles.phone}>Cellphone number / Whatsapp : +57 310 8094629
+                    <p className={styles.phone}>Cellphone number / WhatsApp : +57 310 8094629
                         <br /><br />
                         Landline : +57 601 2519779
                         <br /><br />
