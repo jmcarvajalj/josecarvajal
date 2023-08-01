@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function NotFound() {
     return (
-        <div className={styles.container}>
+        <main className={styles.container}>
             <h1 className={styles.title}>404</h1>
             <p className={styles.paragraph}>Oops, it seems that you&apos;re lost.</p>
             <p className={styles.paragraph}>Press the button to go back home.</p>
@@ -17,6 +17,6 @@ export default function NotFound() {
                     Go Home
                 </button>
             </Link>
-        </div>
+        </main>
     );
 }
