@@ -40,8 +40,8 @@ export default function Home() {
                 src="/github.svg"
                 alt="Github icon"
                 className={styles.icon}
-                width={100}
-                height={100}
+                width={80}
+                height={80}
                 priority
                 unoptimized />
             </Link>
