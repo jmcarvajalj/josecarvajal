@@ -15,8 +15,8 @@ export default function Home() {
           src="/profile.jpg"
           alt="Profile photo"
           className={styles.profilephoto}
-          width={200}
-          height={200}
+          width={260}
+          height={260}
           priority
           unoptimized />
         <section className={styles.description}>

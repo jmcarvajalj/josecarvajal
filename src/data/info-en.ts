@@ -1,5 +1,11 @@
 export const projects = [
     {
+        id: 0,
+        title: "Portfolio",
+        link: "https://github.com/jmcarvajalj/josecarvajal",
+        image: "https://i.imgur.com/nnOqnvG.png"
+    },
+    {
         id: 1,
         title: "Flashcards App",
         link: "https://github.com/jmcarvajalj/mern-flashcards",
@@ -13,7 +19,7 @@ export const projects = [
     },
     {
         id: 3,
-        title: "Conversor",
+        title: "Converter",
         link: "https://github.com/jmcarvajalj/Challenge-ONE-Conversor",
         image: "https://raw.githubusercontent.com/jmcarvajalj/Challenge-ONE-Conversor/main/src/assets/1.png"
     },    

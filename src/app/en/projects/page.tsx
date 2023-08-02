@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { projects } from "../../../data/info";
+import { projects } from "../../../data/info-en";
 import styles from "./page.module.css"
 import Link from "next/link";
 

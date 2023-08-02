@@ -23,7 +23,11 @@
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     color: black;
-    margin-bottom: 1650px;
+    margin-bottom: 1760px;
+}
+
+.cardscontainer {
+    margin-bottom: 5px;
 }
 
 .cardslink {
@@ -34,6 +38,7 @@
     height: 200px;
     border-radius: 9px;
     border: none;
+    margin-bottom: 10px;
 }
 
 .cardslink img {
