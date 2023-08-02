@@ -72,13 +72,13 @@ export const projects = [
         image: "https://i.imgur.com/nk7mjUF.png"
     },
     {
-        id: 17,
+        id: 12,
         title: "Random Quote Machine",
         link: "https://github.com/jmcarvajalj/random-quote-machine",
         image: "https://i.imgur.com/yxaX00r.png"
     },
     {
-        id: 12,
+        id: 13,
         title: "Notes App",
         link: "https://github.com/jmcarvajalj/notes-app",
         image: "https://i.imgur.com/Tq63EPb.png"

@@ -13,6 +13,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={montserrat.className}>
         <Navbar />
+        <div className="wave"></div>
+        <div className="wave"></div>
+        <div className="wave"></div>
         {children}
       </body>
     </html>
