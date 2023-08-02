@@ -28,7 +28,7 @@ export default function Proyectos() {
                 but due to the costs related to their maintenance (Web Services, Databases, etc.)
                 the links mentioned in the repositories may be down.
                 <br /><br />
-                I invite you to check my GitHub account to see any new projects that I make, or if there are projects
+                Please check out my GitHub account to see any new projects that I make, or if there are projects
                 that are not mentioned on this page.
             </p>
             <p className={styles.title}>My Projects</p>

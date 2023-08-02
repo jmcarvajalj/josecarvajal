@@ -1,33 +1,33 @@
 export const projects = [
     {
         id: 1,
-        title: "Database GUI App",
-        link: "https://github.com/jmcarvajalj/fullstackapp-frontend",
-        image: "https://i.imgur.com/ivNsaFS.png"
-    },
-    {
-        id: 2,
         title: "Flashcards App",
         link: "https://github.com/jmcarvajalj/mern-flashcards",
         image: "https://i.imgur.com/85mti3j.png"
     },
     {
-        id: 3,
-        title: "Tasks App",
-        link: "https://github.com/jmcarvajalj/django-crud-react",
-        image: "https://i.imgur.com/65gB4cZ.png"
+        id: 2,
+        title: "Database GUI App",
+        link: "https://github.com/jmcarvajalj/fullstackapp-frontend",
+        image: "https://i.imgur.com/ivNsaFS.png"
     },
     {
-        id: 4,
+        id: 3,
         title: "Conversor",
         link: "https://github.com/jmcarvajalj/Challenge-ONE-Conversor",
         image: "https://raw.githubusercontent.com/jmcarvajalj/Challenge-ONE-Conversor/main/src/assets/1.png"
     },    
     {
+        id: 4,
+        title: "Van Life",
+        link: "https://github.com/jmcarvajalj/van-life",
+        image: "https://i.imgur.com/7fnQmRS.png"
+    },
+    {
         id: 5,
-        title: "React Context Example",
-        link: "https://github.com/jmcarvajalj/react-context-example",
-        image: "https://i.imgur.com/EZkEIYa.png"
+        title: "Tasks App",
+        link: "https://github.com/jmcarvajalj/django-crud-react",
+        image: "https://i.imgur.com/65gB4cZ.png"
     },
     {
         id: 6,
@@ -37,10 +37,10 @@ export const projects = [
     },
     {
         id: 7,
-        title: "Van Life",
-        link: "https://github.com/jmcarvajalj/van-life",
-        image: "https://i.imgur.com/7fnQmRS.png"
-    },
+        title: "React Context Example",
+        link: "https://github.com/jmcarvajalj/react-context-example",
+        image: "https://i.imgur.com/EZkEIYa.png"
+    },    
     {
         id: 8,
         title: "Pomodoro Clock",
