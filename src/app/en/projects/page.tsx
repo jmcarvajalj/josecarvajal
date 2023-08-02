@@ -34,15 +34,17 @@ export default function Proyectos() {
             <p className={styles.title}>My Projects</p>
             <div className={styles.cards}>
                 {projects.map((project) => (
-                    <Link href={project.link} target="_blank" key={project.id} className={styles.cardslink}>
-                        <img
-                            src={project.image}
-                            alt={project.title}
-                        />
-                        <p className={styles.centered}>
-                            {project.title}
-                        </p>
-                    </Link>
+                    <div className={styles.cardscontainer} key={project.id}>
+                        <Link href={project.link} target="_blank" className={styles.cardslink}>
+                            <img
+                                src={project.image}
+                                alt={project.title}
+                            />
+                            <p className={styles.centered}>
+                                {project.title}
+                            </p>
+                        </Link>
+                    </div>
                 ))}
             </div>
         </main>

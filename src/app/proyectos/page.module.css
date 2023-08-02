@@ -20,14 +20,14 @@
     width: 1200px;
     height: 120px;
     margin: 0 auto;
-    grid-gap: 20px;
+    grid-gap: 18px;
     grid-template-columns: repeat(3, 1fr);
     color: black;
-    margin-bottom: 1760px;
+    margin-bottom: 1890px;
 }
 
 .cardscontainer {
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 
 .cardslink {
@@ -35,14 +35,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 220px;
     border-radius: 9px;
     border: none;
     margin-bottom: 10px;
 }
 
 .cardslink img {
-    height: 200px;
+    height: 220px;
     width: 100%;
     border-radius: 9px;
     border: none;
@@ -82,7 +82,7 @@
         width: 750px;
         height: 120px;
         margin: 0 auto;
-        grid-gap: 10px;
+        grid-gap: 20px;
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 1830px;
     }
