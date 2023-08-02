@@ -3,7 +3,7 @@ export const projects = [
         id: 0,
         title: "Portfolio",
         link: "https://github.com/jmcarvajalj/josecarvajal",
-        image: "https://i.imgur.com/nnOqnvG.png"
+        image: "https://i.imgur.com/lUiBBuo.png"
     },
     {
         id: 1,
