@@ -18,7 +18,7 @@ export default function Proyectos() {
                 complete certificates or to practice my skills.
                 <br /><br />
                 These projects are of various types, which range from Full-Stack applications,
-                desktop applications, to Front-end applications (SPA&apos;s).
+                desktop applications, API&apos;s, to Front-end applications (SPA&apos;s).
                 <br /><br />
                 Each card will redirect you to a GitHub repository or to the place where the project
                 is deployed. Most of the projects are deployed. The links will be indicated
@@ -46,7 +46,5 @@ export default function Proyectos() {
                 ))}
             </div>
         </main>
-
     )
 }
-

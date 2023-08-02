@@ -17,7 +17,7 @@ export default function Proyectos() {
         completar certificados o para practicar mis habilidades.
         <br /><br />
         Estos proyectos son de varios tipos, los cuales abarcan desde aplicaciones Full-Stack,
-        aplicaciones de escritorio, hasta aplicaciones Front-end (SPA&apos;s).
+        aplicaciones de escritorio, API&apos;s, hasta aplicaciones Front-end (SPA&apos;s).
         <br /><br />
         Cada tarjeta te redireccionará a un repositorio de GitHub o al lugar donde el proyecto
         esté desplegado. La mayoría de los proyectos están desplegados. Los links estarán indicados
@@ -43,8 +43,7 @@ export default function Proyectos() {
             </p>
           </Link>
         ))}
-      </div>
+      </div>      
     </main>
-
   )
 }
