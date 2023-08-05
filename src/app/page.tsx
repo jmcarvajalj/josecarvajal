@@ -20,7 +20,7 @@ export default function Home() {
           priority
           unoptimized />
         <section className={styles.description}>
-          <p>Hola!, mi nombre es José Miguel Carvajal Jiménez.</p>
+          <p>¡Hola! Mi nombre es José Miguel Carvajal Jiménez.</p>
           <p>Soy un desarrollador de software Full-Stack basado en Colombia. <br /> <br />
             ¡Si necesitas de mis servicios, no dudes en contactarme!</p>
           <div className={styles.icons}>
