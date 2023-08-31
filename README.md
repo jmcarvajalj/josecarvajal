@@ -8,7 +8,7 @@
 </ul><ul>
 <li>Next.js</li>
 </ul><ul>
-<li>JavaScript</li>
+<li>TypeScript</li>
 </ul><ul>
 <li>React</li>
 </ul><ul>
