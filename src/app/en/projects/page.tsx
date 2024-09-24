@@ -1,7 +1,10 @@
+import React from 'react';
 import { Metadata } from "next";
+import Link from "next/link";
+import Image from "next/image";
+
 import { projects } from "../../../data/info-en";
 import styles from "./page.module.css"
-import Link from "next/link";
 
 
 export const metadata: Metadata = {
@@ -36,9 +39,11 @@ export default function Proyectos() {
                 {projects.map((project) => (
                     <div className={styles.cardscontainer} key={project.id}>
                         <Link href={project.link} target="_blank" className={styles.cardslink}>
-                            <img
+                            <Image
                                 src={project.image}
                                 alt={project.title}
+                                fill
+                                className={styles.image}
                             />
                             <p className={styles.centered}>
                                 {project.title}
@@ -46,6 +51,7 @@ export default function Proyectos() {
                         </Link>
                     </div>
                 ))}
+
             </div>
         </main>
     )
