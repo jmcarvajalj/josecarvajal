@@ -48,6 +48,10 @@
     border: none;
 }
 
+.image {
+    border-radius: 9px;
+}
+
 .centered {
     position: absolute;
     top: 40%;
